@@ -23,7 +23,6 @@ attr_accessor :arr, :answer
         @num_arr.push(i)
       end
     end
-    puts @num_arr
   end
 
   def answer
@@ -35,3 +34,5 @@ end
 x = Problem.new
 x.iterator(1, 999)
 x.answer
+
+# commit change
