@@ -23,7 +23,6 @@ attr_accessor :arr, :answer
         @num_arr.push(i)
       end
     end
-    puts @num_arr
   end
 
   def answer
